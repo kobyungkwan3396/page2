@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-image: url(/치과병원.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+
+
+        .a1 {
+            width: 200px;
+            height: 150px;
+            background-color: green; /*div방의 색깔을 넣는것*/
+            border-radius: 15px;  /* 모서리를 둥글게 하는것*/
+            text-align: center;
+            
+        }
+
+
+        .a2 {
+            color: black;
+            margin-top: -5px;
+        }
+
+
+        .a3{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+
+
+        .as12 {
+
+    position: fixed;  /* 화면 위치 고정 */
+    top: 20px;         /* 위에서 20px 떨어진 위치 */
+    right: 20px;       /* 오른쪽에서 20px 떨어진 위치 */
+    
+        }
+
+        .a4{
+            text-align: right;
+            margin-right: 50px;
+            color:aqua;
+        }
+
+        .image {
+            width: 300px
+            height: auto;
+        }
+
+        .a5 {
+            color:white;
+        }
+
+        #a6{
+            color:orange;
+        }
+
+        .clinic-name {
+            position: absolute;
+            top: 50px;
+            text-align: center;
+            font-size:40px;
+            color: navy;
+            width: 100%
+
+        }
+
+        .center-image{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #center-text {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 1.8;
+            color:blue
+        }
+
+         
+    </style>
+</head>
+<body>
+    <div class="a1">교정치료 전,<br><p class="a2">치과 교정과</p> <br> 전문의 확인 하셨나요?
+    </div>
+
+    <br><br><br><br>
+
+    <div class="a5"> 고병관 <div class="a5">교정치과
+                       <br><br> 
+                <button id="a6">예약</button><br><br>              
+    
+             
+              
+
+    <div class="as12">보건복지부 인증<br><p class="a3">치과교정과 모범전문의 책임진료</p>
+    </div>
+
+    <header class="main-header">
+      <div class="center-image">
+      <img src="Dental cliniC.png" alt="치과병원"> 
+      </div>
+      <h1 class="clinic-name">고병관 Ko Byung Kwan Dentist</h1>
+    </header>
+
+    <br><br><br>
+    <button id="center-text">치료 사례</button>
+    
+
+    
+
+    <div class="a4">
+        '치아교정은 교정치과에서'
+        <br>
+         <img src="/증명서.png" alt="증명서" width="100px" height="100px" class="image">
+    </div>
+    
+     
+     
+     
+
+
+    <br><br><br><br>
+
+    <div id="center-text">
+        믿음 위에<br>
+         10년이라는 시간을<br>
+        세웠습니다.<br> 시간은 배신하지 않습니다.<br>
+        앞으로도 변함없이 함께 하겠습니다.
+    </div>
+
+    <br><br>
+
+    
+
+    <br><br><br>
+<img src="/보철기.png" alt="보철" width="180px" height="180px" class="image">
+
+    <br><br><br>
+
+    
+
+    <div class="a4"> <img src="/플레티넘.png" alt="플레티넘" width="200px" height="200px"> invisalign X 고병관
+                                  <br>
+                                  교정치과
+                                  <br>
+                                  인비절라인 플래티넘
+                                  <br>
+                                  등급 달성
+    </div>
+    <br><br>
+
+    <div class="a4"> 인비절라인에 등급이 있습니다
+                     <br>
+                     임상경험과 전문성을 바탕으로 인비절라인의 결과를 좌우합니다.
+                     </div>
+    <br><br>
+ <script>
+    document.getElementById("a6").addEventListener("click", function() {
+        window.location.href = "page1.html";
+    })
+
+    document.getElementById("center-text").addEventListener("click", function() {
+        window.location.href = "page2.html";    
+    })
+ </script>   
+     
+    
+    
+</body>
+</html>
